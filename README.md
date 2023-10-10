@@ -1,2 +1,2 @@
 # proyecto_integrador_ada
-Acá encontraremos el desarrollo por fases del proyecto integrador de la ruta de aprendizaje en data science con ADA School
+Acá encontraremos el desarrollo por fases del proyecto integrador de la ruta de aprendizaje en data science con ADA School, acá desarrollaremos un juego basado en texto que consistirá en recorer y resolver laberintos. Bienvenido a esta aventura, espero estes preparado para ganar!
