@@ -1,4 +1,4 @@
-from readchar import readkey, key, readchar
+from readchar import readkey, key
 
 
 while True:
