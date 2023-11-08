@@ -32,7 +32,7 @@ def principal(mapa, p_inicial, p_final):
         
         # Verificar si posición es válida
         if 0 <= nueva_px < len(mapa[0]) and 0 <= nueva_py < len(mapa) and mapa[nueva_py][nueva_px] != "#":
-            # Actualizar la posición y restaurar la posición anterior
+            # Actualizar la posición y restaura el punto a la posición anterior
             mapa[py][px] = "."
             px, py = nueva_px, nueva_py
         else:
@@ -66,7 +66,7 @@ laberinto = """..###################
 ###################.."""
 
 mapa = convertir_mapa(laberinto)
-posicion_inicial = (0, 0)
-posicion_final = (len(mapa[0]) - 1, len(mapa) - 1)
+p_inicial = (0, 0)
+p_final = (len(mapa[0]) - 1, len(mapa) - 1)
 
-principal(mapa, posicion_inicial, posicion_final)
+principal(mapa, p_inicial, p_final)
