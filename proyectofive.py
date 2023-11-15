@@ -79,7 +79,7 @@ class JuegoArchivo():
                 with open(path+'/'+mapa,"r") as archivo:
                     laberinto = archivo.read()
             else:
-                raise NotFileError("No hay archivos en la carpeta mapas, se cargara el mapa por defecto")
+                raise NotFileError("No hay mapas en la carpeta, se cargaremos el mapa creado por defecto")
         return laberinto.strip()
     
     def iniciar_juego(self):
