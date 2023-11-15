@@ -41,7 +41,7 @@ class Juego(BaseModel):
                 py -= 1  # Flecha izquierda
             elif tecla == key.RIGHT and py < len(self.mapa[0]) - 1 and self.mapa[px][py + 1] != '#':
                 py += 1  # Flecha derecha
-        print ("Ganaste")
+        print ("Chamoooo eres increible, has ganado y tienes salud")
 
 class JuegoArchivo():
     def __init__(self):
@@ -49,7 +49,7 @@ class JuegoArchivo():
         self.juego = Juego(posicion_inicial=(0,0),laberinto=laberinto,mapa=None,posicion_final = None)
     
     def leer_archivo(self) -> str:
-        path = "/Users/Depsys-pc/Desktop/Protalento/ProyectoIntegrador/proyecto_integrador_ada/mapas"
+        path = "/Users/Depsys-pc/Desktop/Protalento/ProyectoIntegrador\proyecto_integrador_ada/mapas"
         laberinto = """..###################
         ....#...............#
         #.#.#####.#########.#
